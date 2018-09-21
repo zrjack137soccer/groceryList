@@ -1,0 +1,98 @@
+body {
+	margin-left: 89px;
+	padding-left: 20px;
+	background-image: linear-gradient(gray, white);
+	border-left: thin solid red;
+	background-color: #F1F0F0;
+}
+/*Introduction style*/
+#intro {
+	
+	text-align: center;
+	background-color: #F1F0F0;
+	border: thick outset #B0B0B0;
+	padding: 10px;
+	font-family: 'Sofia'
+	
+}
+/*Keeps the input line within view if list is long*/
+#input-line {
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+#groceryItem {
+    border: thin solid blue;
+    padding: 10px 8px 10px 200px;
+    font-size: 15px
+}
+#buttonStyle {
+    
+    background-color: #F8F66A;
+    border: thick outset gray;
+    transition-duration: 0.2s;
+    padding: 10px 8px 10px 8px;
+
+}
+#buttonStyle:hover {
+    
+    background-color: black;
+    color: white;
+    border: thick outset gray;
+    padding: 10px 8px 10px 8px;
+    cursor: pointer;
+}
+
+#buttonStyle:active {
+    background-color: black;
+    color: white;
+    border: thick inset gray;
+    padding: 10px 8px 10px 8px;
+    cursor: pointer;
+}
+/*Highlight color*/
+.urgent {
+	background-color: #FFB3B7;
+	color: #ED1A24;
+	border-bottom: thin solid gray;
+	padding: 10px 8px 10px 10px;
+}
+
+.done {
+	background-color: #A1F89D;
+	color: green;
+	border-bottom: thin solid gray;
+	padding: 10px 8px 10px 10px;
+	text-decoration: line-through;
+}
+div {
+    height: auto;
+    width: 80px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #F1F0F0;
+    border: thick outset #B0B0B0;
+}
+ /*Normal grocery list color*/
+li {
+    
+	text-align: center;
+	border: thin solid gray;
+    border-radius: 5px;
+	padding: 10px 8px 10px 10px;
+	background-color: #F1F0F0;
+	color: black;
+	transition-duration: 0.2s;
+}
+/*color when hovering over item*/
+li:hover { 
+    
+	background-color: #9895B0;
+	color: white;
+	cursor: pointer;
+}
+
+li:active {
+    background-color: black;
+}

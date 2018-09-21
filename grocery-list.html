@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script type="text/javascript" src="grocerylist.js">
+        </script>
+        <link rel="stylesheet" href="groceries.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    </head>
+    
+    <!--<body onload="startPage()">-->
+    <body >
+        <div>
+            Key:<br>
+            <p class="done">Item Checked</p>
+            <p class="urgent">Item Urgent</p>
+            
+        </div>
+        <h1 id="intro">Shopping List</h1>
+        <p id = "input-line">
+        <input id="groceryItem" type="text" name="listItem">
+        
+        <button id="buttonStyle" onclick="addItem(document.getElementById('groceryItem').value);">Add Item</button>
+        </p>
+        
+        <ul id="groceryList">
+            
+        </ul>
+        
+
+    </body>
+</html>
